@@ -25,3 +25,31 @@ print(f"{time}s = {h}h {m}m {s}s")
 # Bậc 2:    51kWh - 100kWh         giá 2k VND
 # Bậc 3:    101kWh - 200kWh        giá 2.3k VND
 # Bậc 4:    trên 201kWh            giá 3k VND
+
+# Nhập số diện bạn sử dụng
+kwh = float(input("Nhập số điện sử dụng (kWh): "))
+
+# Khái báo biến tiền điện
+cash = 0
+
+# Tính tiền điện 
+if 0 <= kwh <= 50:
+    cash = kwh * 1.8
+elif 50 < kwh <= 100:
+    cash = 50 * 1.8 + (kwh - 50) * 2
+elif 100 < kwh <= 200:
+    cash = 50 * 1.8 + 50 * 2 + (kwh - 100) * 2.3
+elif kwh > 200:
+    cash = 50 * 1.8 + 50 * 2 + 100 * 2.3 + (kwh - 200) * 3
+else:
+    print("Số điện không hợp lệ")
+
+# Hiển thị kết quả
+print(f"Số tiền điện phải trả: {cash} nghìn VND")
+
+# ============= LUYỆN TẬP ===============
+# Câu 1: Nhập một số từ bàn phím và in ra số đó.
+# Câu 2: Viết chương trình kiểm tra nhập vào 1 số và kiểm tra số đó là chẵn hay lẻ.
+# Câu 3: Viết chương trình tính tổng, hiệu, tích, thương của hai số nhập từ bàn phím.
+# Câu 4: Viết chương trình chuyển đổi từ USD sang VND (số tiền được nhập từ bàn phím).
+# Câu 5: Viết chương trình nhập số điểm của 3 bạn học sinh, in ra màn hình bạn có điểm thấp nhất và bạn có điểm cao nhất.
