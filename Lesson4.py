@@ -49,6 +49,9 @@ print(f"Số tiền điện phải trả: {cash} nghìn VND")
 
 # ============= LUYỆN TẬP ===============
 # Câu 1: Nhập một số từ bàn phím và in ra số đó.
+num = input("Nhập một số: ")
+print("Số bạn vừa nhập là:", num)
+
 # Câu 2: Viết chương trình kiểm tra nhập vào 1 số và kiểm tra số đó là chẵn hay lẻ.
 # Câu 3: Viết chương trình tính tổng, hiệu, tích, thương của hai số nhập từ bàn phím.
 # Câu 4: Viết chương trình chuyển đổi từ USD sang VND (số tiền được nhập từ bàn phím).
