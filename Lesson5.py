@@ -76,3 +76,11 @@ elif minh >= danh and minh >= hoang:
     print(f"Bạn có điểm cao nhất là: Minh với {minh} điểm.")
 else: 
     print("Dữ liệu không hợp lệ.")    
+
+# ============= Kết quả CP1 ===============
+# Vũ Hoàng: 8
+# Minh Tùng: 7.5
+# Nhật Minh: 8.5
+# Đức Anh: 8
+# Hoàng Anh: 8
+# Nguyên Vũ: 9
