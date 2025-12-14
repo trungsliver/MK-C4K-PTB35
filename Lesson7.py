@@ -40,8 +40,82 @@ while n != number:
         print("Số bạn đoán lớn hơn số bí mật.")
     if n < number:
         print("Số bạn đoán nhỏ hơn số bí mật.")
-
+    # Tăng số lần đoán lên 1
     count += 1
     n = int(input("\nNhập dự đoán của bạn [0, 100]: "))
 
 print(f"Bạn đã trả lời đúng sau {count} lần đoán.")
+
+# ==================== ÔN TẬP VÒNG LẶP FOR =====================
+# Dạng 1: In / Hiển thị ra màn hình
+    # 1.1. In ra màn hình các số từ 0 đến n
+n = int(input("Nhập số nguyên dương n: "))
+for i in range(n+1):
+    print(i)
+
+    # 1.2. In ra màn hình các số nguyên trong khoảng [a, b]
+a = int(input("Nhập số nguyên a: "))
+b = int(input("Nhập số nguyên b: "))
+for i in range(a, b+1):
+    print(i)
+
+    # 1.3. In ra màn hình các số chẵn trong khoảng [a, b]
+a = int(input("Nhập số nguyên a: "))
+b = int(input("Nhập số nguyên b: "))
+for i in range(a, b+1):
+    if i % 2 == 0:
+        print(i)
+
+    # 1.4. In ra màn hình các số lẻ trong khoảng [a, b]
+a = int(input("Nhập số nguyên a: "))
+b = int(input("Nhập số nguyên b: "))
+for i in range(a, b+1):
+    if i % 2 != 0:
+        print(i)
+
+# Dạng 2: Tính tổng
+    # 2.1. Tính tổng các số trong khoảng [a, b]
+a = int(input("Nhập số nguyên a: "))
+b = int(input("Nhập số nguyên b: "))
+total = 0
+for i in range(a, b+1):
+    # Cộng từng số i vào total
+    total += i      # total = total + i
+print(f"Tổng các số trong khoảng [{a}, {b}] là: {total}")
+
+    # 2.2. Tính tổng các số chẵn trong khoảng [a, b]
+a = int(input("Nhập số nguyên a: "))
+b = int(input("Nhập số nguyên b: "))
+total = 0
+for i in range(a, b+1):
+    if i % 2 == 0:
+        total += i
+print(f"Tổng các số chẵn trong khoảng [{a}, {b}] là: {total}")
+
+    # 2.3. Tính tổng các số lẻ trong khoảng [a, b]
+a = int(input("Nhập số nguyên a: "))
+b = int(input("Nhập số nguyên b: "))
+total = 0
+for i in range(a, b+1):
+    if i % 2 != 0:
+        total += i
+print(f"Tổng các số lẻ trong khoảng [{a}, {b}] là: {total}")
+
+# Dạng 3: Đếm số lượng
+    # 3.1. Đếm số lượng số chia hết cho 5 trong khoảng [a, b]
+a = int(input("Nhập số nguyên a: "))
+b = int(input("Nhập số nguyên b: "))
+count = 0
+for i in range(a, b+1):
+    if i % 5 == 0:
+        count += 1
+print(f"Số lượng số chia hết cho 5 trong khoảng [{a}, {b}] là: {count}")
+
+    # 3.2. Đếm số lượng số âm trong khoảng [a, b]
+a = int(input("Nhập số nguyên a: "))
+b = int(input("Nhập số nguyên b: "))
+count = 0
+for i in range(a, b+1):
+    if i < 0:
+        count += 1
+print(f"Số lượng số âm trong khoảng [{a}, {b}] là: {count}")
