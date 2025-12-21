@@ -60,3 +60,37 @@ print(numbers)
 # Tìm phần tử lớn nhất & nhỏ nhất
 print('Max number:', max(numbers))
 print('Min number:', min(numbers))
+
+# ================ LUYỆN TẬP ================
+# Bài 1: Nhập từ bàn phím 1 số nguyên n
+# Yêu cầu: Kiểm tra xem n có phải là số nguyên tố hay không
+# Biết rằng số nguyên tố là số chỉ chia hết cho 1 và chính nó
+
+n = int(input('Nhập số nguyên n: '))
+    # count dùng để đếm số lần chia hết
+count = 0
+    # Duyệt từ 1 đến n
+for i in range(1, n + 1):
+    if n % i == 0:
+        count += 1
+    # Kiểm tra count
+if count == 2:
+    print(f'{n} là số nguyên tố')
+else:
+    print(f'{n} không phải số nguyên tố')
+
+# Bài 2: In ra các số nguyên tố trong khoảng [50,100] và tính tổng các số đó
+    # Khai báo báo biến lưu tổng
+total = 0
+    # Duyệt n từ 50 đến 100
+for n in range(50, 101):
+    # Kiểm tra n có phải số nguyên tố không
+    count = 0
+    for i in range(1, n + 1):
+        if n % i == 0:
+            count += 1
+    # Nếu n là số nguyên tố thì in ra và tính tổng
+    if count == 2:
+        print(n, end=' ')
+        total += n
+print('\nTổng các số nguyên tố trong khoảng [50,100]:', total)
