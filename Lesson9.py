@@ -5,6 +5,14 @@
 
 # Hạn nộp: 15h05
 
+# ============= Vấn đáp ===============
+# Hoàng Anh: 0.5/2
+# Nhật Minh: 1.5/2
+# Đức Anh: 1.5/2
+# Vũ Hoàng: 1/2
+# Minh Tùng: 1/2
+# Nguyên Vũ: 1.3/2
+
 # ============ Luyện tập ===============
 # Bài ôn tập 1-9
 # Bài 1: Nhập 1 số nhuyên từ bàn phím. Nếu đó là số chẵn, in ra màn hình 'đây là số chẵn', các trường hợp còn lại in ra 'đây là số lẻ'.
