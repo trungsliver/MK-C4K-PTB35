@@ -13,6 +13,14 @@
 # Minh Tùng: 1/2
 # Nguyên Vũ: 1.3/2
 
+# ============= TN & TL ===============
+# Hoàng Anh: 7/10 4.5/5
+# Nhật Minh: 7/10 5/5
+# Đức Anh:  7/10 5/5
+# Vũ Hoàng: 6/10 5/5
+# Minh Tùng: 6/10 5/5
+# Nguyên Vũ: 8/10 5/5
+
 # ============ Luyện tập ===============
 # Bài ôn tập 1-9
 # Bài 1: Nhập 1 số nhuyên từ bàn phím. Nếu đó là số chẵn, in ra màn hình 'đây là số chẵn', các trường hợp còn lại in ra 'đây là số lẻ'.
