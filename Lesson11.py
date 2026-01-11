@@ -97,9 +97,27 @@ print('In hoa chữ cái đầu mỗi từ:', name.title())
 
 # -------------------------Luyện tập-----------------------
 # Bài 1: Nhập 2 thông tin: họ, tên. In ra màn hình tên đầy đủ
+ho = input('Nhập họ của bạn: ')
+ten = input('Nhập tên của bạn: ')
+arr = [ho, ten]
+full_name = ' '.join(arr)
+print(full_name)
 
 # Bài 2: Nhập vào 1 xâu ký tự định dạng dd/mm/yyyy (01/08/2024)
     # Tách ngày, tháng, năm và hiển thị ra màn hình
+date1 = input('Nhập chuỗi dạng dd/mm/yyyy: ')
+    # Cách 1: dùng split()
+arr_date = date1.split('/')
+day = arr_date[0]
+month = arr_date[1]
+year = arr_date[2]
+print(f'Ngày: {day}, Tháng: {month}, Năm: {year}')
+
+    # Cách 2: dùng replace
+date2 = date1.replace('/', ' tháng ', 1)
+date2 = date2.replace('/', ' năm ', 1)
+print('Ngày tháng năm là:', date2)
+
 
 # Bài 3: Nhập vào thông tin dạng username:password
     # kiểm tra xem thông tin vừa nhập có trùng với thông tin có sẵn
