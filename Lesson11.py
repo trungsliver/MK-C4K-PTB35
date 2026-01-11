@@ -89,6 +89,12 @@ print('Danh sách số (cách 1):', num1)
 num2 = [int(item) for item in numbers]
 print('Danh sách số (cách 2):', num2)
 
+# In hoa, in thường
+name = 'bUi dUC TRuNg'
+print('In hoa:', name.upper())
+print('In thường:', name.lower())
+print('In hoa chữ cái đầu mỗi từ:', name.title())
+
 # -------------------------Luyện tập-----------------------
 # Bài 1: Nhập 2 thông tin: họ, tên. In ra màn hình tên đầy đủ
 
