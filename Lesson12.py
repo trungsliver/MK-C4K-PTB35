@@ -2,8 +2,8 @@
 
 # Hàm không có giá trị trả về
 def say_hello():
-    print("Hello Khiêm")
-    print("Hello Bảo Hoàng")
+    print("Hello Đức Anh")
+    print("Hello Vũ Hoàng")
 
     # gọi hàm khi cần sử dụng
 say_hello()
@@ -12,8 +12,8 @@ say_hello()
 def hello2(name):
     print("Hello ", name)
 
-hello2('Minh Trí')
-hello2('Mai Hoàng Minh')
+hello2('Hoàng Anh')
+hello2('Nhật Minh')
 
 # Hàm có giá trị trả về (sử dụng được như 1 biến)
 def dtic_HCN(a:float, b:float):
@@ -62,7 +62,7 @@ print('8:',is_prime(8))  # False
 # Bài 3: Viết một hàm count_words(s) để đếm số lượng từ trong một chuỗi s.
 # 	YC1: Hàm nhận vào một chuỗi ký tự s.
 # 	YC2: Hàm trả về số lượng từ trong chuỗi đó.
-str1 = 'Khiêm thích mặc quần hoa'
+str1 = 'Nhật Minh mặc áo đỏ'
 def count_words(s:str):
     # strip(): xóa khoảng trắng ở đầu và cuối chuỗi
     # split(): tách chuỗi và lưu các phần tử đc tách vào danh sách
